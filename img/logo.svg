@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Artboard Copy 13</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard-Copy-13" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(55.000000, 105.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group">
+                <rect id="Rectangle-Copy" x="0" y="0" width="40" height="90"></rect>
+                <rect id="Rectangle-Copy-2" x="50" y="0" width="40" height="90"></rect>
+                <rect id="Rectangle-Copy" transform="translate(145.000000, 20.000000) rotate(-270.000000) translate(-145.000000, -20.000000) " x="125" y="-25" width="40" height="90"></rect>
+                <rect id="Rectangle-Copy-2" transform="translate(145.000000, 70.000000) rotate(-270.000000) translate(-145.000000, -70.000000) " x="125" y="25" width="40" height="90"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

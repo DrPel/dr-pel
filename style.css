@@ -1,0 +1,108 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    background-color: #f3f4f3
+}
+
+.HomeText{
+    margin: 0 auto;
+    font-family: Avenir Next;
+    /* white-space: nowrap; */
+}
+
+/* 不知道为什么 footer 对不齐，暂时用这种方式 - -  */
+.HomeText {
+    padding-left:40px; 
+}
+
+.description{
+    padding-left: 40px;
+}
+
+
+.content {
+    padding-left: 18%;
+    padding-right: 20%;
+    position: absolute;
+    top: 26%;
+    min-width: 460px;
+}
+
+#logo {
+    padding:8px 0 0 24px;
+    position: fixed;
+    width: 100px;
+}
+
+h1{
+    color: 333333;
+    font-size: 48px;
+    margin: 18px 0;
+    line-height: 1.2;
+}
+
+h3{
+    color: #636b65;
+    font-family: 'Fira Sans',Avenir Next,Aven sans-serif;
+    font-weight: 200;
+    line-height: 1.4;
+    margin-top: 52px;
+}
+
+.hightlight {
+    color: #35B244;
+    letter-spacing: 0px;
+    display: inline;
+    -webkit-animation: 1.6s mymove;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+@-webkit-keyframes mymove{
+    from {letter-spacing: -2px;
+    color: white}
+    to {letter-spacing: 0px;
+    color: #35B244;}
+}
+
+
+.footer{
+    /* padding-left:300px; */
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+
+.link li{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 100;
+    display: inline-block;
+    padding-right: 32px;
+}
+
+a:active{
+    color:aaa;
+}
+
+a[href^="mailto:"]{ 
+  color: #999;
+}
+
+.link a:hover{
+    color: black;
+}
+
+a:visited{
+    color: #999;
+}
+
+::selection{
+    background:#35B244;
+    color: aliceblue;
+}
+
+
+/* What this? */
+/* :root{
+    columns: 24;
+} */
